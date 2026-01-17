@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Path with magenta color (not in palette)",
+        "stroke": "#FF00FF"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.553787, 47.426229],
+          [7.589836, 47.433197]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marker with bright cyan (not in palette)",
+        "marker-color": "#00FFFF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.577133, 47.362316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Path with valid Blue from palette",
+        "stroke": "#0066CC"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.553444, 47.411594],
+          [7.585373, 47.418564]
+        ]
+      }
+    }
+  ]
+}
